@@ -29,14 +29,14 @@ def text_to_speech(user_text):
     engine.runAndWait()
 
 
-haarcasecade_path = "C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master"
+haarcasecade_path = "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master"
 trainimagelabel_path = (
-    "C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master\\TrainingImageLabel\\Trainner.yml"
+    "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\TrainingImageLabel\\Trainner.yml"
 )
-trainimage_path = ("C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master\\TrainingImage"
-    "C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master\\StudentDetails\\studentdetails.csv"
+trainimage_path = ("C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\TrainingImage"
+    "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\StudentDetails\\studentdetails.csv"
 )
-attendance_path = "C:\\Users\\Avineesh\\Downloads\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master"
+attendance_path = "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master"
 
 
 window = Tk()

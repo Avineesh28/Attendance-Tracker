@@ -10,15 +10,15 @@ import datetime
 import time
 import tkinter.ttk as tkk
 import tkinter.font as font
-haarcasecade_path = "C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master"
-trainimagelabel_path = (
-    "C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master\\TrainingImageLabel\\Trainner.yml"
-)
-trainimage_path = ("C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master\\TrainingImage"
-    "C:\\Users\\Avineesh\\Downloads\\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master\\StudentDetails\\studentdetails.csv"
-)
-attendance_path = "C:\\Users\\Avineesh\\Downloads\Attendance-Management-system-using-face-recognition-master\\Attendance-Management-system-using-face-recognition-master"
 
+haarcasecade_path = "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master"
+trainimagelabel_path = (
+    "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\TrainingImageLabel\\Trainner.yml"
+)
+trainimage_path = ("C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\TrainingImage"
+    "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\StudentDetails\\studentdetails.csv"
+)
+attendance_path = "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master"
 
 # for choose subject and fill attendance
 def subjectChoose(text_to_speech):

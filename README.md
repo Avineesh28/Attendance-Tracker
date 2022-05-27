@@ -4,8 +4,8 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
 
-### Steps to be followed
-- Download or clone the Repository to your device
+### Steps to follow
+- Download or clone my Repository to your device
 - type `pip install -r requirements.txt` in command prompt(this will install required package for project)
 - Create a `TrainingImage` folder in a project folder.
 - open `attendance.py` and `automaticAttendance.py`, change all the path accoriding to your system
@@ -20,3 +20,13 @@
 - After training model click on `Automatic Attendance` ,you have to enter the subject name and then it can fill attendace by your face using our trained model.
 - it will create `.csv` file for every subject you enter and seperate every `.csv` file accoriding the subject
 - You can view the attendance after clicking `View Attendance` button. It will show record in tabular format.
+
+### Screenshots
+
+### Simple UI
+<img src='https://github.com/Patelrahul4884/Attendance-Management-system-using-face-recognition/blob/master/Project%20Snap/1.PNG'>
+
+## Attendance in tabular format 
+<img src='https://github.com/Patelrahul4884/Attendance-Management-system-using-face-recognition/blob/master/Project%20Snap/7.PNG'>
+
+## Just follow me and Star⭐ my repository

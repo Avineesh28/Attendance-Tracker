@@ -21,7 +21,7 @@ def TakeImage(l1, l2, haarcasecade_path, trainimage_path, message, err_screen,te
     else:
         try:
             cam = cv2.VideoCapture(0)
-            detector = cv2.CascadeClassifier(haarcasecade_path)
+            detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
             Enrollment = l1
             Name = l2
             sampleNum = 0

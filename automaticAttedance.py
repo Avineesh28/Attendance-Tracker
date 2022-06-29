@@ -224,7 +224,7 @@ def subjectChoose(text_to_speech):
             text_to_speech(t)
         else:
             os.startfile(
-                f"C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance\\{sub}"
+                f"C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\Attendance\\{sub}"
             )
 
     attf = tk.Button(

@@ -17,10 +17,10 @@ import takeImage
 import trainImage
 import automaticAttedance
 
-# engine = pyttsx3.init()
-# engine.say("Welcome!")
-# engine.say("Please browse through your options..")
-# engine.runAndWait()
+#engine = pyttsx3.init()
+#engine.say("Welcome!")
+#engine.say("Please browse through your options..")
+#engine.runAndWait()
 
 
 def text_to_speech(user_text):
@@ -33,8 +33,8 @@ haarcasecade_path = "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Managemen
 trainimagelabel_path = (
     "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\TrainingImageLabel\\Trainner.yml"
 )
-trainimage_path = ("C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\TrainingImage"
-    "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\StudentDetails\\studentdetails.csv"
+trainimage_path = "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\TrainingImage"
+studentdetail_path = ("C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master\\StudentDetails\\studentdetails.csv"
 )
 attendance_path = "C:\\Users\\Avineesh\\Face Recognition\\Attendance-Management-system-using-face-recognition-master"
 
